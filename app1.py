@@ -98,4 +98,4 @@ def video():
     return Response(generate_frames(finalText),mimetype='multipart/x-mixed-replace; boundary=img')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
