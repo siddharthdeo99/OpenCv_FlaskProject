@@ -2,6 +2,7 @@ from flask import Flask,render_template,Response
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 from time import sleep
+from flask.scaffold import F
 import numpy as np
 import cvzone
 from pynput.keyboard import Controller
@@ -98,4 +99,4 @@ def video():
     return Response(generate_frames(finalText),mimetype='multipart/x-mixed-replace; boundary=img')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=False,host='0.0.0.0')
