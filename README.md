@@ -7,7 +7,6 @@
 
 This repo is about implementing multiple complex Open-Cv projects in one website, which is not available easily on the internet.
 
-![](header.png)
 
 ## Installation
 
