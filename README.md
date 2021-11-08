@@ -1,5 +1,5 @@
 # REAL-TIME AI WEBSITE
-> A Real time implementation of Open-Cv projects on website with FLASK.
+> Real-time implementation of Open-Cv projects on the website with FLASK.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
