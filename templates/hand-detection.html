@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>OpenAi - An Open-Source AI project.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by CocoBasic" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CocoBasic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="{{ url_for('static',filename='images/favicon.ico')}}" />    
+        <!-- <link rel="shortcut icon" href="images/favicon.ico" />     -->
+        <link href='http://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800%7CPlayfair%20Display:700%7CPT%20Serif:400i' rel='stylesheet' type='text/css'>		
+        <!-- <link rel="stylesheet" type="text/css"  href='style.css' /> -->
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/style.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/clear.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/font-awesome.min.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/sm-clean.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/swiper.min.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/prettyPhoto.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/common.css')}}"/>
+        
+    </head>
+
+    <body class="single single-portfolio">
+
+        <div class="site-wrapper">                  
+            <div class="doc-loader"></div>  
+
+            <!-- Left Part Sidebar -->
+            <div class="menu-left-part">               
+
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="/">Home</a></li>
+                        <li>
+                            <a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="https://github.com/siddharthdeo99" target="_blank">Github</a>
+                        </li>
+                        <li>
+                            <a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="https://www.linkedin.com/in/siddharth-lal-deo/" target="_blank">Connect with me</a>
+                        </li>
+                    </ul>
+                    <!-- <form role="search" method="get" class="search-form" action="#">
+                        <label>		
+                            <input autocomplete="off" type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:"> 
+                        </label>    
+                    </form> -->
+                </nav>       
+
+                <div class="menu-right-text">
+                    <p class="menu-text-title">HELLO, I'M SIDDHARTH.</p>
+                    <div class="menu-text">
+                        This project is about <br>Real-Time implementation of the OpenCv projects on the Website.<br>You can contribute on this Open-Source Project <a href="https://github.com/siddharthdeo99/OpenCv_FlaskProject" target="_blank">Here.</a>
+                    </div>
+                    <br>
+                    <br>
+                    <a class="socail-text" href="https://github.com/siddharthdeo99/">GH.</a>
+                    <a class="socail-text" href="https://www.linkedin.com/in/siddharth-lal-deo/">LI.</a>
+                    <a class="socail-text" href="https://www.youtube.com/SiddharthDeo">YT.</a>
+                    <a class="socail-text" href="#">WB.</a>
+                </div>
+            </div>
+
+            <!-- Right Part Sidebar -->
+            <div class="menu-right-part">      
+                <div class="header-logo">
+                    <a href="/">
+                        <!-- <img src="images/logo.png" alt="Anotte"> -->
+                        <img src="{{ url_for('static',filename='images/logo.png')}}"/>
+                    </a>               
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>                
+                </div>   
+
+            </div> 
+
+            <!-- Page Content Holder -->
+            <div id="content" class="site-content">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-content center-relative content-1170">
+                        <div id="slider" class="simple-image-slider-wrapper relative swiper-container">
+                            <div class="swiper-wrapper image-slider slider">
+                                <div class="swiper-slide">
+                                    <img src="{{ url_for('video') }} "/>
+                                </div>
+                            </div>
+                            <div class="clear"></div> 
+                            <div class="swiper-pagination simple-image-slider-pagination swiper-pagination-slider" ></div>                               
+                        </div>
+
+                        <div class="two_third">
+                            <h1>AI Virtual Keyboard</h1>
+                            <div class="medium-text">
+                                A smart virtual Keyboard is programmed intelligently, which captures input from hand gestures and type the text accordingly.
+                            </div>
+                            <br>
+                            <p>
+                                We are already used to the membrane and mechanical keyboards, and later on, we have been
+                                using on-screen keyboards in windows 10.
+                                <br>But all those techniques are old, right?
+                                <br>In this smart era, I'm introducing a new fun way of typing, which intelligently takes input
+                                from your hand gestures and automatically types the word accordingly.
+                                <br>Note: This is a web implementation. You can use it as a regular keyboard also.
+                            </p>
+                        </div>
+
+                        <div class="one_third last">
+                            <br>                            
+                            <div class="info-code">
+                                <p class="info-code-title">PROJECT</p>
+                                <p class="info-code-content">Ai virtual keyboard</p>
+                            </div>
+                            <div class="info-code">
+                                <p class="info-code-title">DEVELOPER</p>
+                                <p class="info-code-content">Siddharth Lal Deo</p>
+                            </div>
+                            <div class="info-code">
+                                <p class="info-code-title">DATE</p>
+                                <p class="info-code-content">September 2021</p>
+                            </div>
+                            <div class="info-code">
+                                <p class="info-code-title">MODULES USED</p>
+                                <p class="info-code-content">Flask Cv2 Pynput Numpy</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>                            
+                    </div>
+                    <!-- <div class="nav-links">
+                        <a class="nav-next tooltip" data-title="Photo Coloection" href="portfolio-2.html"> 
+                            <span class="fa fa-chevron-right" aria-hidden="true"></span> 
+                        </a>
+                    </div> -->
+                </div>
+                <div class="clear"></div>
+            </div> 
+            <!-- End Page Content Holder -->            
+        </div>
+
+        <!--Load JavaScript-->
+        <!-- <script src="js/jquery.js"></script>			
+        <script src='js/jquery.smartmenus.min.js'></script>                                 
+        <script src='js/jquery.prettyPhoto.js'></script>                                    
+        <script src="js/jquery.sticky-kit.min.js"></script>			                                       
+        <script src='js/imagesloaded.pkgd.js'></script>                
+        <script src='js/jquery.fitvids.js'></script>                
+        <script src='js/tipper.js'></script>                
+        <script src='js/swiper.min.js'></script>                        
+        <script src='js/main.js'></script> -->
+        <!-- <script src="js/jquery.js"></script> -->
+        <script src="{{ url_for('static',filename='js/jquery.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.smartmenus.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.prettyPhoto.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.sticky-kit.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/imagesloaded.pkgd.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.fitvids.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/tipper.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/swiper.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/main.js')}}"></script>
+
+    </body>
+</html>

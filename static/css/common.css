@@ -1,0 +1,458 @@
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.line-height {
+    line-height: 0;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+.center-absolute {
+    left: 50%;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-right {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin-0, 
+.margin-0 img {
+    margin: 0 !important;
+    line-height: 0;
+}
+
+.top-0 {
+    margin-top: 0 !important;
+}
+
+.top-5 {
+    margin-top: 5px !important;	
+}
+ 
+.top-10 {
+    margin-top: 10px;	
+}
+
+.top-15 {
+    margin-top: 15px;	
+}
+
+.top-20 {
+    margin-top: 20px;
+}
+
+.top-25 {
+    margin-top: 25px;	
+}
+
+.top-30 {
+    margin-top: 30px;	
+}
+
+.top-50 {
+    margin-top: 50px;	
+}
+
+.top-60 {
+    margin-top: 60px;	
+}
+
+.top-70 {
+    margin-top: 70px;	
+}
+
+.top-75 {
+    margin-top: 75px;	
+}
+
+.top-80 {
+    margin-top: 80px;
+}
+
+.top-100 {
+    margin-top: 100px;	
+}
+
+.top-105 {
+    margin-top: 105px;	
+}
+
+.top-120 {
+    margin-top: 120px;
+}
+
+.top-150 {
+    margin-top: 150px;	
+}
+
+.top-200 {
+    margin-top: 200px;	
+}
+
+.top-negative-30 {
+    margin-top: -30px;
+}
+
+.left-35 {
+    margin-left:35px;
+}
+
+.right-35 {
+    margin-right:35px;
+}
+
+.bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.bottom-10 {
+    margin-bottom: 10px !important;
+}
+.bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.bottom-25 {
+    margin-bottom: 25px !important;
+}
+
+.bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.bottom-50 {
+    margin-bottom: 50px !important;
+}
+
+.bottom-100 {
+    margin-bottom: 100px !important;
+}
+
+.bottom-150 {
+    margin-bottom: 150px !important;
+}
+
+.bottom-200 {
+    margin-bottom: 200px !important;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+blockquote {
+    font-family: 'PT Serif', serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 35px;
+    color: #939393;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+}
+
+blockquote:before {
+    content: '';
+    display: block;
+    left: 0;
+    top: calc(50% - 70px);
+    position: absolute;
+    background-image: url(../images/quotes_image.png);
+    background-size: cover;
+    width: 140px;
+    height: 110px;
+}
+
+blockquote p {
+    position: relative;
+    z-index: 2;
+    margin-left: 225px;
+    display: inline-block !important;
+    min-height: 80px;
+    max-width: 320px;
+    margin-bottom: 0;
+}
+
+blockquote cite {
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{    
+    padding: 20px 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 38px;    
+}
+
+h2 {
+    font-size: 34px;    
+    line-height: 34px;    
+}
+
+h3 {
+    font-size: 32px;  
+    line-height: 32px;    
+}
+
+h4 {
+    font-size: 30px;    
+}
+
+h5 {
+    font-size: 28px;   
+}
+
+h6 {
+    font-size: 26px;    
+}
+
+em {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+table, 
+th, 
+td {
+    border:1px solid black;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.single-content ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 0 0 14px 17px;
+}
+
+.single-content ul {
+    display: block;
+    list-style-type: disc;
+    margin: 0 0 14px 17px;
+}
+
+/* COLUMNS */
+.one,  
+.one_half,  
+.one_third,  
+.two_third,  
+.three_fourth, 
+.one_fourth {
+    margin-right: 8%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.one {
+    float: none;
+    display: block;
+    clear: both;
+}
+
+.one_half {
+    width: 46%;    
+}
+
+.one_third {
+    width: 28%;    
+}
+
+.two_third {
+    width: 64%;    
+}
+
+.one_fourth {
+    width: 19%;
+}
+
+.three_fourth {
+    width: 73%;
+}
+
+.center-relative {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.pp_default .pp_loaderIcon {
+    display: none !important;
+}
+
+div.pp_default a.pp_arrow_previous {
+    background-image: url(../images/nav_left.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_next {
+    background-image: url(../images/nav_right.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_previous:hover {
+    transform: translateX(-5px);
+}
+
+div.pp_default a.pp_arrow_next:hover {
+    transform: translateX(5px);
+}
+
+div.pp_default .pp_close {
+    background-image: url(../images/close.png);
+    background-size: 30px 30px;
+    margin-top: 5px;
+    text-indent: -99999999px;
+    font-size: 0;
+    line-height: 0;    
+}
+
+div.pp_default .pp_next:hover {
+    background: url(../images/nav_right.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 20px;
+}
+
+div.pp_default .pp_previous:hover {
+    background: url(../images/nav_left.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;    
+}
+
+div.pp_default .pp_nav .currentTextHolder {
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+div.pp_default .pp_content_container .pp_details {
+    margin-top: 30px !important;
+    z-index: 3;
+}
+
+div.pp_default .pp_description {
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}

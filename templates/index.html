@@ -1,8 +1,208 @@
-<html>
-    <body>
-        <h1>Live streaming</h1>
-        <div>
-            <img src="{{ url_for('video') }}" width="650"/>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>OpenAi - An Open-Source AI project.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by CocoBasic" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CocoBasic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="{{ url_for('static',filename='images/favicon.ico')}}" />       
+        <link href='http://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800%7CPlayfair%20Display:700%7CPT%20Serif:400i' rel='stylesheet' type='text/css'>		
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/style.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/clear.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/font-awesome.min.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/sm-clean.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/swiper.min.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/prettyPhoto.css')}}"/>
+        <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='css/common.css')}}"/>
+    
+
+
+                
+    </head>
+
+    <body class="page-template-carousel">
+
+        <div class="site-wrapper">                  
+            <div class="doc-loader"></div>  
+
+            <!-- Left Part Sidebar -->
+            <div class="menu-left-part">               
+
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="/">Home</a></li>
+                        <li>
+                            <a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="https://github.com/siddharthdeo99" target="_blank">Github</a>
+                        </li>
+                        <li>
+                            <a style="font-size: 50px; line-height: 110%;font-weight: 800;" href="https://www.linkedin.com/in/siddharth-lal-deo/" target="_blank">Connect with me</a>
+                        </li>
+                    </ul>
+                    <!-- <form role="search" method="get" class="search-form" action="#">
+                        <label>		
+                            <input autocomplete="off" type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:"> 
+                        </label>    
+                    </form> -->
+                </nav>       
+
+                <div class="menu-right-text">
+                    <p style="color: #b6df1e;
+                    font-size: 13px;
+                    letter-spacing: 5px;
+                    font-weight: 700;
+                    padding-bottom: 30px;
+                    margin-bottom: 0;" class="menu-text-title">HELLO, I'M SIDDHARTH.</p>
+                    
+                    <div class="menu-text">
+                        This project is about <br>Real-Time implementation of the OpenCv projects on the Website.<br>You can contribute on this Open-Source Project <a href="https://github.com/siddharthdeo99/OpenCv_FlaskProject" target="_blank">Here.</a>
+                    </div>
+                    <br>
+                    <br>
+                    <a class="socail-text" href="https://github.com/siddharthdeo99/">GH.</a>
+                    <a class="socail-text" href="https://www.linkedin.com/in/siddharth-lal-deo/">LI.</a>
+                    <a class="socail-text" href="https://www.youtube.com/SiddharthDeo">YT.</a>
+                    <a class="socail-text" href="#">WB.</a>
+                </div>
+            </div>
+
+            <!-- Right Part Sidebar -->
+            <div class="menu-right-part">      
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="{{ url_for('static',filename='images/logo.png')}}"/>
+                    </a>               
+                </div>
+
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>                
+                </div>   
+
+            </div> 
+
+            <!-- Page Content Holder -->
+            <div id="content" class="site-content">
+                <div class="content-right">      
+                    <div class="horizontal-slider image-slider-wrapper relative">
+                        <div class="swiper-wrapper image-slider slider">
+
+                            <div class="swiper-slide text-slide">
+                                <div class="carousel-item-text">
+                                    <p class="title-description-up">OPENCV PROJECTS</p>
+                                    <h1 class="entry-title big-text">Explore <span style="color: #0eaf0e">Projects</span></h1>
+                                    <div style="max-width: 500px;" class="carousel-content">
+                                        Here are some best Ai Projects implemented in realtime with proper approach and working. Just <span style="color: #ce630c">select any image</span> to get started.
+                                    </div>                                        
+                                </div>                                    
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="carousel-item-image">
+                                    <a href="/hand-detection" class="img-thumb">
+                                        <img src="{{ url_for('static',filename='images/Skeyboard.png')}}"/>
+                                    </a>
+                                    <div class="carousel-item-info">
+                                        <!-- <div class="carousel-cat-links">
+                                            <ul>
+                                                <li class="portfolio-category">
+                                                    <a href="#">People</a>
+                                                </li>
+                                                <li class="portfolio-category">
+                                                    <a href="#">Square</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
+                                        <h2>
+                                            <a href="/hand-detection">Hand Detection</a>
+                                        </h2>
+                                    </div>
+                                    <p class="post-num">
+                                        <span>01</span>
+                                        <span class="total-num">03</span>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="carousel-item-image">
+                                    <a href="/aiquiz" class="img-thumb">
+                                        <img src="{{ url_for('static',filename='images/aiquiz.png')}}"/>
+                                    </a>
+                                    <div class="carousel-item-info">
+                                        <!-- <div class="carousel-cat-links">
+                                            <ul>
+                                                <li class="portfolio-category">
+                                                    <a href="#">People</a>
+                                                </li>
+                                                <li class="portfolio-category">
+                                                    <a href="#">Square</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
+                                        <h2>
+                                            <a href="/aiquiz">Ai Quiz</a>
+                                        </h2>
+                                    </div>
+                                    <p class="post-num">
+                                        <span>02</span>
+                                        <span class="total-num">03</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="carousel-item-image">
+                                    <a href="/ic" class="img-thumb">
+                                        <img src="{{ url_for('static',filename='images/motiond.png')}}"/>
+                                    </a>
+                                    <div class="carousel-item-info">
+                                        <!-- <div class="carousel-cat-links">
+                                            <ul>
+                                                <li class="portfolio-category">
+                                                    <a href="#">People</a>
+                                                </li>
+                                                <li class="portfolio-category">
+                                                    <a href="#">Square</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
+                                        <h2>
+                                            <a href="/ic">Object detection</a>
+                                        </h2>
+                                    </div>
+                                    <p class="post-num">
+                                        <span>03</span>
+                                        <span class="total-num">03</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide more-posts-portfolio">
+                                <div class="portfolio-slider-load-more">
+                                    <a href="https://github.com/siddharthdeo99/OpenCv_FlaskProject">⭐ STAR THIS REPO. </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div> <!-- End Page Content Holder -->            
         </div>
+
+        <!--Load JavaScript-->
+        <script src="{{ url_for('static',filename='js/jquery.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.smartmenus.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.prettyPhoto.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.sticky-kit.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/imagesloaded.pkgd.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/jquery.fitvids.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/tipper.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/swiper.min.js')}}"></script>
+        <script src="{{ url_for('static',filename='js/main.js')}}"></script>
+        
     </body>
 </html>
